@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 const Footer_Component = () => {
   const handleClick = () => {
-    const phoneNum = '2349166635320';
+    const phoneNum = '447423342297';
     const message =
       'Hello FrontendIQ\nI saw the site You Created for Jegedekennel,i am interested in creating a site to, can i get more info';
     const enCodedMessage = encodeURIComponent(message);
