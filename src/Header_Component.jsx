@@ -31,7 +31,7 @@ const Header_Component = () => {
     window.history.go(-1);
   };
   return (
-    <div className="text-primary-color fixed z-[1000] w-full border-b border-b-[#e6e3e3] bg-[#ffffff] p-4 text-[1.2rem]">
+    <div className="text-primary-color fixed z-[1000] w-full border-b border-b-[#e6e3e3] bg-[#ffffff] p-4">
       <div className="Header_Container flex items-center justify-between">
         <div className="logo flex items-center justify-between">
           {location.pathname !== '/' ? (
@@ -75,7 +75,7 @@ const Header_Component = () => {
                 onClick={() => {
                   setHidden(true);
                 }}
-                className="mb-[4rem] w-[6rem]"
+                className="mb-[3rem] w-[6rem]"
               >
                 <FontAwesomeIcon icon={faHome} /> Home
               </li>
@@ -85,7 +85,7 @@ const Header_Component = () => {
                 onClick={() => {
                   setHidden(true);
                 }}
-                className="mb-[4rem] w-[6rem]"
+                className="mb-[3rem] w-[6rem]"
               >
                 <FontAwesomeIcon icon={faPaw} /> About
               </li>
@@ -95,7 +95,7 @@ const Header_Component = () => {
                 onClick={() => {
                   setHidden(true);
                 }}
-                className="mb-[4rem] w-[10rem]"
+                className="mb-[3rem] w-[10rem]"
               >
                 <FontAwesomeIcon icon={faDog} /> Puppies
               </li>
@@ -104,7 +104,7 @@ const Header_Component = () => {
               onClick={() => {
                 setHidden(true);
               }}
-              className="mb-[4rem] w-[6rem]"
+              className="mb-[3rem] w-[6rem]"
             >
               <a href="#footer"><FontAwesomeIcon icon={faPhone} /> Contact</a>
             </li>

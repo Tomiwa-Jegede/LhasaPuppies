@@ -15,7 +15,7 @@ const Landing_Page = () => {
         <Header_Component />
         {/* heading */}
         <div className="relative flex h-[100dvh] flex-col items-center justify-center text-white">
-          <div className="mb-[1rem] text-center text-[2.6rem]">
+          <div className="mb-[1rem] text-center text-[2rem]">
             Adorable <br />
             <span className="bg-primary-color inline-block rotate-[8deg] rounded-[3rem] p-2">
               Lhasa Apso Puppies
@@ -24,7 +24,7 @@ const Landing_Page = () => {
             Raised with Love
           </div>
           {/* sub-heading */}
-          <div className="mb-[1rem] text-center text-[1rem]">
+          <div className="mb-[1rem] text-center text-[1.1rem]">
             Purebred.Ready to bring joy into your life.
           </div>
           {/* Button Component */}

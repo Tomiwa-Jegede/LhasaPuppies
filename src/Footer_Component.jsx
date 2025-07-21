@@ -13,7 +13,7 @@ const Footer_Component = () => {
   return (
     <div id='footer' className="bg-primary-color p-[1rem] text-[#000000ba]">
       <ul className="py-[1.5rem]">
-        <li className="my-[1rem] flex flex-col text-[1.1rem]">
+        <li className="my-[1rem] flex flex-col text-[.9rem]">
           <span className="mb-[.5rem] text-[1.3rem] text-white border-b w-fit">
             Copyright Notice
           </span>
@@ -22,11 +22,11 @@ const Footer_Component = () => {
             loyalty.
           </span>
         </li>
-          <li className="my-[1rem] flex flex-col text-[1.1rem]">
+          <li className="my-[1rem] flex flex-col text-[.9rem]">
           <span className="mb-[.5rem] text-[1.3rem] text-white border-b w-fit">
             Social Media
           </span>
-          <span className="flex w-[5rem] justify-between text-[2rem]">
+          <span className="flex w-[5rem] justify-between text-[1.5rem]">
             <a href="https://www.instagram.com/jegedekennel?igsh=ZzM0N3prNG5iNjB0">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
@@ -35,7 +35,7 @@ const Footer_Component = () => {
             </a>
           </span>
         </li>
-        <li className="my-[1rem] flex flex-col text-[1.1rem]">
+        <li className="my-[1rem] flex flex-col text-[.9rem]">
           <span className="mb-[.5rem] text-[1.3rem] text-white border-b w-fit">
             Adoption Process Steps
           </span>
@@ -44,7 +44,7 @@ const Footer_Component = () => {
           <span>(3) Schedule pickup or delivery</span>
         </li>
       
-        <li className="my-[1rem] flex flex-col text-[1.1rem]">
+        <li className="my-[1rem] flex flex-col text-[.9rem]">
           <span className="mb-[.5rem] text-[1.3rem] text-white border-b w-fit">
             Contact Information
           </span>

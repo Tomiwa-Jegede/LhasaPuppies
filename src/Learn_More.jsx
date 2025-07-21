@@ -16,7 +16,7 @@ const Learn_More = () => {
   return (
     <div className="flex flex-col items-center p-3 pt-[4rem]">
       {/* header-01 */}
-      <h1 className="text-primary-color w-full text-[2rem]">
+      <h1 className="text-primary-color w-full text-[1.5rem]">
         About Lhasa Apso
       </h1>
       <div className="slider-container relative mb-[2rem] flex w-[385px] items-center overflow-hidden rounded-[5px] text-white">
@@ -42,38 +42,38 @@ const Learn_More = () => {
         </div>
       </div>
       {/* body-01 */}
-      <p className="mb-[3rem] w-full text-[1.1rem]">
-        The <span className="text-primary-color text-[1.2rem]">Lhasa Apso</span>{' '}
+      <p className="mb-[3rem] w-full text-[.9rem]">
+        The <span className="text-primary-color text-[.9rem]">Lhasa Apso</span>{' '}
         is a small but sturdy dog breed originally from Tibet, where it was bred
         to be a sentinel dog in Buddhist monasteries. Despite their{' '}
-        <span className="text-primary-color text-[1.2rem]">small size</span>,
+        <span className="text-primary-color text-[.9rem]">small size</span>,
         these dogs have a{' '}
-        <span className="text-primary-color text-[1.2rem]">
+        <span className="text-primary-color text-[.9rem]">
           big personality
         </span>{' '}
         — combining{' '}
-        <span className="text-primary-color text-[1.2rem]">elegance</span> with
+        <span className="text-primary-color text-[.9rem]">elegance</span> with
         a touch of{' '}
-        <span className="ttext-[1.2rem] ext-primary-color">independece</span>{' '}
-        and <span className="text-primary-color text-[1.2rem]">boldness</span>.
+        <span className="text-[.9rem] ext-primary-color">independece</span>{' '}
+        and <span className="text-primary-color text-[.9rem]">boldness</span>.
       </p>
       {/* header-02 */}
-      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[1.5rem]">
         <FontAwesomeIcon icon={faScroll} /> Breed History
       </h1>
       {/* body-02 */}
-      <div className="mb-[2rem] w-full text-[1.1rem]">
+      <div className="mb-[2rem] w-full text-[.9rem]">
         <ul className="list-outside list-disc pl-5">
           <li className="pb-3">
-            <span className="text-primary-color text-[1.2rem]">Origin:</span>
+            <span className="text-primary-color text-[1rem]">Origin:</span>
             <span> Tibet (over 1,000 years ago)</span>
           </li>
           <li className="pb-3">
-            <span className="text-primary-color text-[1.2rem]">Role:</span>
+            <span className="text-primary-color text-[1rem]">Role:</span>
             <span> Guard dogs for palaces and monasteries</span>
           </li>
           <li className="pb-4">
-            <span className="text-primary-color text-[1.2rem]">
+            <span className="text-primary-color text-[1rem]">
               Name Meaning:
             </span>
             <span>
@@ -94,42 +94,42 @@ const Learn_More = () => {
       </div>
 
       {/* header-03 */}
-      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[1.5rem]">
         <FontAwesomeIcon icon={faDna} /> Breed Characteristics
       </h1>
       {/* body-03 */}
       <div className="mb-[2rem] w-full">
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Size</p>
+          <p className="text-primary-color text-[1rem]">Size</p>
           <p>Small (10-11 inches tall, 12-18 pounds)</p>
         </div>
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Coat</p>
+          <p className="text-primary-color text-[1rem]">Coat</p>
           <p>Long, dense, and straight — requires grooming</p>
         </div>
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Lifespan</p>
+          <p className="text-primary-color text-[1rem]">Lifespan</p>
           <p>12-15 years (some live even longer!)</p>
         </div>
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Temprament</p>
+          <p className="text-primary-color text-[1rem]">Temprament</p>
           <p>Loyal, confident, alert, independent</p>
         </div>
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Energy Level</p>
+          <p className="text-primary-color text-[1rem]">Energy Level</p>
           <p>Moderate — playful but not hyper</p>
         </div>
         <div className="grid grid-cols-2 border border-[#dfdddd]">
-          <p className="text-primary-color text-[1.2rem]">Good With</p>
+          <p className="text-primary-color text-[1rem]">Good With</p>
           <p>Families, singles, apartments, older children</p>
         </div>
       </div>
       {/* header-04 */}
-      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[1.5rem]">
         <FontAwesomeIcon icon={faBrain} /> Personality
       </h1>
       {/* body-04 */}
-      <div className="w-full pb-[2rem] text-[1.1rem]">
+      <div className="w-full pb-[2rem] text-[.9rem]">
         <p className="text-primary-color">
           Lhasa Apsos are often described as:
         </p>
@@ -159,11 +159,11 @@ const Learn_More = () => {
         </p>
       </div>
       {/* header-05 */}
-      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[1.5rem]">
         <FontAwesomeIcon icon={faScissors} /> Grooming
       </h1>
       {/* body-05 */}
-      <div className="w-full text-[1.1rem]">
+      <div className="w-full text-[.9rem]">
         <ul className="list-outside list-disc py-[1rem] pl-5">
           <li className="pb-2">
             Their long coat needs{' '}
@@ -181,8 +181,8 @@ const Learn_More = () => {
         </ul>
       </div>
       {/* body-06 */}
-      <div className="w-full text-[1.1rem]">
-        <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+      <div className="w-full text-[.9rem]">
+        <h1 className="text-primary-color mb-[1rem] w-full border-b text-[1.5rem]">
           <FontAwesomeIcon icon={faHeart} /> Why People Love Lhasa
         </h1>
         <ul className="list-outside list-disc py-[1rem] pl-5">
