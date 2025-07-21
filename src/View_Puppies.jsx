@@ -12,7 +12,7 @@ const View_Puppies = () => {
   const sendMessage = (id) => {
     puppies.find((puppy, index) => {
       if (index === id) {
-        const phoneNum = '09166635320';
+        const phoneNum = '2349166635320';
         const message = `Hello Jegedekennel(${index})\nI am interested in this ${puppy.age} old ${puppy.sex} ${puppy.name}`;
         const enCodedMessage = encodeURIComponent(message);
         const whatsApp = `https://wa.me/${phoneNum}?text=${enCodedMessage}`;
