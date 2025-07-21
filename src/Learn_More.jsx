@@ -13,7 +13,6 @@ import {
 
 const Learn_More = () => {
   const { imageList, setWidth, imageRef } = useContext(SliderContent);
-
   return (
     <div className="flex flex-col items-center p-3 pt-[4rem]">
       {/* header-01 */}
@@ -160,12 +159,11 @@ const Learn_More = () => {
         </p>
       </div>
       {/* header-05 */}
-        <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
-          <FontAwesomeIcon icon={faScissors} /> Grooming
-        </h1>
+      <h1 className="text-primary-color mb-[1rem] w-full border-b text-[2rem]">
+        <FontAwesomeIcon icon={faScissors} /> Grooming
+      </h1>
       {/* body-05 */}
       <div className="w-full text-[1.1rem]">
-      
         <ul className="list-outside list-disc py-[1rem] pl-5">
           <li className="pb-2">
             Their long coat needs{' '}

@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Button_Component = ({ label, symbole }) => {
+const Button_Component = ({ label, symbole, onClick,  }) => {
   return (
-    <button className="bg-primary-color rounded-[2rem] py-3 w-[11rem] px-[1rem] text-[1.2rem] flex items-center justify-between">
-      {label}{symbole}
+    <button
+      onClick={onClick}
+      className="bg-primary-color flex w-[11rem] items-center justify-between rounded-[2rem] px-[1rem] py-3 text-[1.2rem]"
+    >
+      {label}
+      {symbole}
     </button>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-const images = import.meta.glob('/src/assets/**/*.png', {
+const images = import.meta.glob('/src/assets/slider-img/*.png', {
   eager: true,
   import: 'default',
 });

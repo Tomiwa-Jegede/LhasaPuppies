@@ -3,6 +3,7 @@ import Header_Component from './Header_Component';
 import Button_Component from './Button_Component';
 import { faArrowRight, faPaw } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
 const Landing_Page = () => {
@@ -41,6 +42,14 @@ const Landing_Page = () => {
               />
             </Link>
           </div>
+          <span className="flex w-[5rem] justify-between text-[2rem]">
+            <a href="https://www.instagram.com/jegedekennel?igsh=ZzM0N3prNG5iNjB0">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://wa.me/09166635320">
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+          </span>
         </div>
       </div>
     </>
