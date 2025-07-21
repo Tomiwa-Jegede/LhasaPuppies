@@ -49,13 +49,14 @@ const Slider = ({ children }) => {
   //auto slider
   useEffect(() => {
     const interval = setInterval(() => {
+      if(!width)return;
       setTransitioning(true);
       nextBtn();
     }, 2000);
     return () => {
       clearInterval(interval);
     };
-  }, [nextBtn]);
+  }, [nextBtn,width]);
   return (
     <SliderContent.Provider
       value={{ imageList, setWidth, nextBtn, prevBtn, imageRef, currentIndex }}
