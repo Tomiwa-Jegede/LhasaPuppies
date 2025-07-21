@@ -28,6 +28,7 @@ const View_Puppies = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="h-full w-full rounded-[10px] border object-cover"
           src={lhasaVid}
         ></video>
