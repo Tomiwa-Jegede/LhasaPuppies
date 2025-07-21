@@ -1,4 +1,5 @@
 import React from 'react';
+import lhasaVid from '/src/assets/puppies/lhasa.mp4';
 import { puppies } from './puppies';
 import Button_Component from './Button_Component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,7 +29,7 @@ const View_Puppies = () => {
           loop
           muted
           className="h-full w-full rounded-[10px] border object-cover"
-          src="/src/assets/puppies/lhasa.mp4"
+          src={lhasaVid}
         ></video>
       </div>
       <div className="bg-light-primary-color grid grid-cols-2 gap-2 p-2">
