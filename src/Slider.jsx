@@ -23,7 +23,7 @@ const Slider = ({ children }) => {
       imageRef.current.style.transition = 'none';
       setImageList((prev) => [...prev.slice(1), prev[0]]);
       setTransitioning(false);
-    }, 400);
+    }, 300);
   }, [transitioning, width, imageList]);
   //code for the prev btm
   const prevBtn = useCallback(() => {
@@ -44,7 +44,7 @@ const Slider = ({ children }) => {
 
     setTimeout(() => {
       setTransitioning(false);
-    }, 400);
+    }, 300);
   }, [transitioning, width, imageList]);
   //auto slider
   useEffect(() => {
