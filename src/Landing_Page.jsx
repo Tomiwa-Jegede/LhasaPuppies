@@ -10,7 +10,7 @@ const Landing_Page = () => {
   return (
     <>
       {/* landing page container */}
-      <div className="Landing_Page_Container relative h-[100dvh] bg-[url(src/assets/lhasa-bg.jpg)] before:absolute before:inset-0 before:bg-black before:opacity-[0.4] before:content-['']">
+      <div className="Landing_Page_Container relative h-[100dvh] bg-[url(/src/assets/lhasa-bg.jpg)] before:absolute before:inset-0 before:bg-black before:opacity-[0.4] before:content-['']">
         {/* header component */}
         <Header_Component />
         {/* heading */}

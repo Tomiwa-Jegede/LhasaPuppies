@@ -28,7 +28,7 @@ const View_Puppies = () => {
           loop
           muted
           className="h-full w-full rounded-[10px] border object-cover"
-          src="src/assets/puppies/lhasa.mp4"
+          src="/src/assets/puppies/lhasa.mp4"
         ></video>
       </div>
       <div className="bg-light-primary-color grid grid-cols-2 gap-2 p-2">

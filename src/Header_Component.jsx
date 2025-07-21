@@ -31,7 +31,7 @@ const Header_Component = () => {
     window.history.go(-1);
   };
   return (
-    <div className="text-primary-color fixed z-[1000] w-full border-b border-b-[#e6e3e3] bg-[#ffffff] p-4">
+    <div className="text-primary-color fixed z-[1000] w-full border-b border-b-[#e6e3e3] bg-[#ffffff] p-3">
       <div className="Header_Container flex items-center justify-between">
         <div className="logo flex items-center justify-between">
           {location.pathname !== '/' ? (
@@ -44,13 +44,7 @@ const Header_Component = () => {
              
               <FontAwesomeIcon icon={faArrowLeft} />
             </button>
-          ) : (
-            <img
-              className="mr-[1rem] h-[2.5rem] w-[2.5rem] rounded-[3rem]"
-              src="src/assets/logo(jegedekennel).png"
-              alt=""
-            />
-          )}{' '}
+          ) : null}{' '}
           {title}
         </div>
         {/* menu */}
