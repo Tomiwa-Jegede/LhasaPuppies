@@ -13,7 +13,7 @@ const Slider = ({ children }) => {
   const [transitioning, setTransitioning] = useState(false);
   //next button on the slider
   const nextBtn = useCallback(() => {
-    if (transitioning || !imageRef.current) return;
+    if (transitioning || !imageRef.current || !width) return;
     setTransitioning(true);
     imageRef.current.style.transform = `translateX(-${width}px)`;
     imageRef.current.style.transition = 'transform 0.3s linear';
@@ -27,7 +27,7 @@ const Slider = ({ children }) => {
   }, [transitioning, width, imageList]);
   //code for the prev btm
   const prevBtn = useCallback(() => {
-    if (transitioning || !imageRef.current) return;
+    if (transitioning || !imageRef.current||!width) return;
     setTransitioning(true);
     setImageList((prev) => [prev[prev.length - 1], ...prev.slice(0, -1)]);
     requestAnimationFrame(() => {
